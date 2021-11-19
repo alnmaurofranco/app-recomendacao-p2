@@ -1,0 +1,4 @@
+Aluno:	Alan Mauro Franco R.A:2040481822052 E-mail: allanhps-singledcr@hotmail.com
+Aluno:	José Vitor de Oliveira Agatte R.A: 2040481912025 E-mail:jvoaht@gmail.com
+Aluno:	Marcos Felipe Jeremias R.A:2040481812030 E-mail:marcosfelipejeremias@gmail.com
+Aluno:	William Rodrigues Silva R.A: 2040481822001 E-mail: willrodrigues4@gmail.com

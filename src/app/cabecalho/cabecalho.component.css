@@ -1,0 +1,30 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  flex-direction: row;
+  display: flex;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.separador {
+  flex: 1;
+}
+
+.mat-button:hover {
+  background: #532f95;
+  opacity: 0.9;
+}
+
+.homeActive {
+  color: #dcc8ff;
+}
+
+.active {
+  background: #532f95;
+}

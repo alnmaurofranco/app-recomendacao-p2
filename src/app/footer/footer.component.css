@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  height: 20vh;
+  align-items: center;
+  justify-content: center;
+
+  /* position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%; */
+}
+
+.bg-purple {
+  background-color: #673ab7;
+}
+
+.copyright {
+  color: #fff;
+  text-align: center;
+  font-size: 17px;
+}

@@ -1,0 +1,28 @@
+<mat-toolbar color="primary" class="d-flex justify-content-center align-items-center text-center">
+  <span>
+    <a routerLink="/">
+      📝 Aplicação para Recomendações
+    </a>
+  </span>
+
+  <span class="separador"></span>
+
+  <ul>
+    <li>
+      <a mat-button routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]={exact:true}>
+        <mat-icon style="margin-right: 0.3rem;">
+          home
+        </mat-icon>
+        Home
+      </a>
+    </li>
+    <li>
+      <a mat-button routerLink="/criar" routerLinkActive="active">
+        <mat-icon style="margin-right: 0.3rem;">
+          add_box
+        </mat-icon>
+        Criar Recomendação
+      </a>
+    </li>
+  </ul>
+</mat-toolbar>

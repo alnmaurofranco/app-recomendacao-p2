@@ -1,0 +1,24 @@
+.content {
+  margin-top: 4.6rem;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+
+  min-height: 68%;
+  margin-bottom: -60px;
+}
+
+mat-card {
+  width: 75%;
+  margin: auto;
+}
+
+mat-form-field,
+input {
+  width: 100%;
+}
+
+.mat-raised-button {
+  width: 100%;
+  padding: 5px;
+}

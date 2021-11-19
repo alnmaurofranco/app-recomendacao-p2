@@ -1,0 +1,26 @@
+<div class="content">
+  <h3 class="fs-4 text-center" *ngIf="recomendacoes.length > 0">Recomendações</h3>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4" *ngFor="let recomendacao of recomendacoes">
+        <div class="card text-white bg-purple mb-3">
+          <div class="card-header text-center font-monospace fw-bold">
+            {{recomendacao.topic | uppercase}}
+          </div>
+          <div class="card-body">
+            <h3 class="card-title fw-bold">{{recomendacao.message}}</h3>
+            <p class="card-text"><strong>ID: </strong>{{recomendacao.id}}</p>
+            <p class="card-text"><strong>Criado em: </strong> {{recomendacao.createdAt | date:"dd/MM/yyyy HH:mm:ss" }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <p class="empty-recommendations mat-body-1 fs-4 text-center" *ngIf="recomendacoes.length <= 0">
+    Nenhuma recomendação foi cadastrada ainda.
+  </p>
+
+</div>
