@@ -7,6 +7,9 @@ Aplicação para Recomendações (POOA) - PROVA 02
 * ***Back-end ✅***
 * ***Prova realizada em grupo.***
 
+## **✅ Demostração**
+<img src=".github/github@screen.png" alt="Aplicação para recomendações em demostração" />
+
 ## **🚀 Tecnologias**
 - *Front-end*
 <p>
@@ -23,6 +26,3 @@ Aplicação para Recomendações (POOA) - PROVA 02
 <img src="https://cdn.svgporn.com/logos/knex.svg" alt="bootstrap" width="30" height="30" style="margin-left: 5px;"/>
 <img src="https://cdn.svgporn.com/logos/postgresql.svg" alt="materialui" width="30" height="30" style="margin-left: 5px;"/>
 </p>
-
-## **✅ Demostração**
-<img src=".github/github@screen.png" alt="Aplicação para recomendações em demostração" />
