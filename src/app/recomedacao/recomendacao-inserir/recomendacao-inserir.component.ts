@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NgForm } from '@angular/forms';
-import { Recomendacoes } from '../recomedacao.interface';
+import { Recomendacoes } from '../recomendacao.interface';
 import { RecomendacaoService } from '../recomendacao.service';
 
 @Component({

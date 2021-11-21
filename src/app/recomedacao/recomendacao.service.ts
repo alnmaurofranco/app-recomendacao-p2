@@ -1,10 +1,16 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { Router } from '@angular/router';
 
-import { Recomendacoes } from './recomedacao.interface';
+import { Recomendacoes } from './recomendacao.interface';
 
 import { Subject } from 'rxjs';
 import { map } from 'rxjs/operators';
+
+type AdicionarRecomendacaoResponseData = {
+  id: string;
+  createdAt: Date;
+};
 
 const baseURL: string = 'http://localhost:3333/api';
 
@@ -12,7 +18,7 @@ const baseURL: string = 'http://localhost:3333/api';
   providedIn: 'root',
 })
 class RecomendacaoService {
-  constructor(private httpClient: HttpClient) {}
+  constructor(private httpClient: HttpClient, private route: Router) {}
 
   private recomendacoes: Recomendacoes[] = [];
 
@@ -50,7 +56,10 @@ class RecomendacaoService {
     };
 
     this.httpClient
-      .post<any>(`${baseURL}/recommendations/create`, recomendacao)
+      .post<AdicionarRecomendacaoResponseData>(
+        `${baseURL}/recommendations/create`,
+        recomendacao
+      )
       .subscribe((data) => {
         this.recomendacoes.push({
           id: data.id,
@@ -70,6 +79,8 @@ class RecomendacaoService {
           }),
         ]);
       });
+
+    this.route.navigateByUrl('/');
   }
 }
 

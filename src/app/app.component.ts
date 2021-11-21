@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
-import { Recomendacoes } from '../app/recomedacao/recomedacao.interface';
+import { Recomendacoes } from './recomedacao/recomendacao.interface';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

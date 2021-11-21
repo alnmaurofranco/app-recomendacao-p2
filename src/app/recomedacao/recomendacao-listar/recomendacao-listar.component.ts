@@ -1,7 +1,7 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
 
-import { Recomendacoes } from '../recomedacao.interface';
+import { Recomendacoes } from '../recomendacao.interface';
 
 import { RecomendacaoService } from '../recomendacao.service';
 
