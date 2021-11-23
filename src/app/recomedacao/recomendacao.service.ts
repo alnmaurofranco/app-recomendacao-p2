@@ -12,7 +12,7 @@ type AdicionarRecomendacaoResponseData = {
   createdAt: Date;
 };
 
-const baseURL: string = 'http://localhost:3333/api';
+const baseURL: string = 'https://api-recommendation.herokuapp.com/api'; // localhost:3333/api
 
 @Injectable({
   providedIn: 'root',
