@@ -4,7 +4,7 @@
   margin-right: auto;
 
   min-height: 100%;
-  margin-bottom: 12rem;
+  margin-bottom: 11rem;
 }
 
 .content:after {
@@ -14,7 +14,6 @@
 
 .empty-recommendations {
   margin-top: 12.9rem;
-  margin-bottom: 10rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,10 +21,17 @@
 
 :host {
   margin-bottom: 6rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
   display: block;
 }
 
 .bg-purple {
   background-color: #673ab7;
+}
+
+@media only screen and (min-width: 1368px) {
+  :host {
+    margin-bottom: 14.5rem;
+    margin-top: 6rem;
+  }
 }
